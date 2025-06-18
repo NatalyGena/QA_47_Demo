@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a14ac3-1b29-4039-a1ac-11c1cb1792e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="47a14ac3-1b29-4039-a1ac-11c1cb1792e3" name="Changes" comment="Create Exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/CCsSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/CCsSelector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NatalyGena"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NatalyGena&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NatalyGena/QA_47_Demo.git",
-    "accountId": "171912a1-be6f-4abf-a31c-b915c4569965"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NatalyGena/QA_47_Demo.git&quot;,
+    &quot;accountId&quot;: &quot;171912a1-be6f-4abf-a31c-b915c4569965&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -44,16 +43,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build QA_47_Demo.executor": "Run",
     "Gradle.QA_47_Demo [:experiments.Exception.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.CCsSelector.executor": "Debug",
+    "TestNG.CCsSelector.selectorsHomePage.executor": "Run",
+    "TestNG.XpathSelectors.selectorRadioButtonPage.executor": "Run",
     "git-widget-placeholder": "master",
     "onboarding.tips.debug.path": "C:/Users/nataly/IdeaProjects/QA_47_Demo/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CCsSelector.selectorsHomePage">
     <configuration name="Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="experiments.Exception" />
       <module name="QA_47_Demo.main" />
@@ -67,8 +70,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CCsSelector" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_47_Demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.CCsSelector" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CCsSelector.selectorsHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_47_Demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.CCsSelector" />
+      <option name="METHOD_NAME" value="selectorsHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XpathSelectors.selectorRadioButtonPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_47_Demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.XpathSelectors" />
+      <option name="METHOD_NAME" value="selectorRadioButtonPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CCsSelector.selectorsHomePage" />
+        <item itemvalue="TestNG.CCsSelector" />
+        <item itemvalue="TestNG.XpathSelectors.selectorRadioButtonPage" />
         <item itemvalue="Application.Exception" />
       </list>
     </recent_temporary>
@@ -81,7 +140,20 @@
       <option name="presentableId" value="Default" />
       <updated>1750161453523</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create Exception">
+      <option name="closed" value="true" />
+      <created>1750164150948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750164150948</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

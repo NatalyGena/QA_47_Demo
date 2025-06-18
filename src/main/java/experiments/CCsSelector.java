@@ -16,7 +16,7 @@ public class CCsSelector {
     @Test
     public void selectorsHomePage() {
         driver.get("https://demoqa.com/");
-      //  driver.navigate().to("https://demoqa.com/");
+        //  driver.navigate().to("https://demoqa.com/");
         driver.manage().window().maximize();
         hideBanner();
         hideFooter();
@@ -31,20 +31,19 @@ public class CCsSelector {
         WebElement radioButton = driver.findElement(By.id("item-2"));
         radioButton.click();
         // WebElement radioButtonYes =driver.findElement(By.id("yesRadio"));
-      //  WebElement radioButtonYes = driver.findElement(By.cssSelector
-      //          ("label[for='yesRadio']"));
-      //  radioButtonYes.click();
-        WebElement radioButtonYes = driver.findElement(By.cssSelector
-                        ("//label[@for='yesRadio']"));
-                 radioButtonYes.click();
+        //  WebElement radioButtonYes = driver.findElement(By.cssSelector
+        //          ("label[for='yesRadio']"));
+        //  radioButtonYes.click();
+        // WebElement radioButtonYes = driver.findElement(By.cssSelector
+        //              ("//label[@for='yesRadio']"));
+        //      radioButtonYes.click();
         pause(5);
         driver.navigate().back();
         pause(5);
         driver.navigate().back();
-//      WebElement divBookStore = driver.findElement
-//              (By.cssSelector("div[class='category-cards']" + "div[class='card mt-4 top-card']:last-child"));
-//       divBookStore.click();
-       pause(5);
+        // WebElement divBookStore = driver.findElement
+        //      (By.cssSelector("div[class='category-cards']" + "div[class='card mt-4 top-card']:last-child"));
+        // divBookStore.click();
         // driver.quit();
     }
 
@@ -56,11 +55,13 @@ public class CCsSelector {
         }
 
     }
-    public void hideBanner(){
+
+    public void hideBanner() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.querySelector('#fixedban').style.display='none' ");
     }
-    public void hideFooter(){
+
+    public void hideFooter() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.querySelector('footer').style.display='none' ");
     }
