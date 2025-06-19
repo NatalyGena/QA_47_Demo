@@ -7,9 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import java.lang.Exception;
-
-public class CCsSelector {
+public class CssSelector {
     WebDriver driver = new ChromeDriver();
 
 
