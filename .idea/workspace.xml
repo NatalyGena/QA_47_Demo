@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a14ac3-1b29-4039-a1ac-11c1cb1792e3" name="Changes" comment="CssSelectors">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/AppManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FormsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PracticeFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" afterDir="false" />
+    <list default="true" id="47a14ac3-1b29-4039-a1ac-11c1cb1792e3" name="Changes" comment="Created project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ajax_element/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ajax_element/PrimerAjax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ajaxtests/PrimerAjaxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/CCsSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/CssSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,6 +62,9 @@
   "keyToString": {
     "Gradle.Build QA_47_Demo.executor": "Run",
     "Gradle.PracticeFormTests.studentRegFormPositiveTest.executor": "Run",
+    "Gradle.PrimerAjaxTest.executor": "Run",
+    "Gradle.PrimerAjaxTest.testWithAjax.executor": "Run",
+    "Gradle.PrimerAjaxTest.testWithoutAjax.executor": "Run",
     "Gradle.QA_47_Demo [:experiments.Exception.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -99,58 +103,77 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CssSelector" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA_47_Demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="experiments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="experiments" />
-      <option name="MAIN_CLASS_NAME" value="experiments.CssSelector" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PrimerAjaxTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ajaxtests.PrimerAjaxTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="CssSelector.selectorsHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA_47_Demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="experiments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="experiments" />
-      <option name="MAIN_CLASS_NAME" value="experiments.CssSelector" />
-      <option name="METHOD_NAME" value="selectorsHomePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PrimerAjaxTest.testWithAjax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ajaxtests.PrimerAjaxTest.testWithAjax&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="XpathSelectors.selectorRadioButtonPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA_47_Demo.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="experiments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="experiments" />
-      <option name="MAIN_CLASS_NAME" value="experiments.XpathSelectors" />
-      <option name="METHOD_NAME" value="selectorRadioButtonPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PrimerAjaxTest.testWithoutAjax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ajaxtests.PrimerAjaxTest.testWithoutAjax&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="XpathSelectors.selectorTextBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA_47_Demo.main" />
@@ -173,10 +196,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PracticeFormTests.studentRegFormPositiveTest" />
+        <item itemvalue="Gradle.PrimerAjaxTest.testWithoutAjax" />
+        <item itemvalue="Gradle.PrimerAjaxTest" />
+        <item itemvalue="Gradle.PrimerAjaxTest.testWithAjax" />
         <item itemvalue="TestNG.XpathSelectors.selectorTextBox" />
-        <item itemvalue="TestNG.CssSelector.selectorsHomePage" />
-        <item itemvalue="TestNG.CssSelector" />
-        <item itemvalue="TestNG.XpathSelectors.selectorRadioButtonPage" />
       </list>
     </recent_temporary>
   </component>
@@ -204,13 +227,22 @@
       <option name="project" value="LOCAL" />
       <updated>1750266024768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created project">
+      <option name="closed" value="true" />
+      <created>1750363211098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750363211098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Exception" />
     <MESSAGE value="CssSelectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="CssSelectors" />
+    <MESSAGE value="Created project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
