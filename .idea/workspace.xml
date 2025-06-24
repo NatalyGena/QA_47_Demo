@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a14ac3-1b29-4039-a1ac-11c1cb1792e3" name="Changes" comment="Created project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ajax_element/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ajax_element/PrimerAjax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ajaxtests/PrimerAjaxTest.java" afterDir="false" />
+    <list default="true" id="47a14ac3-1b29-4039-a1ac-11c1cb1792e3" name="Changes" comment="Type Gender and DateOfBirth">
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Hobbies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StateCity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PracticeFormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTests.java" afterDir="false" />
     </list>
@@ -58,26 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build QA_47_Demo.executor": "Run",
-    "Gradle.PracticeFormTests.studentRegFormPositiveTest.executor": "Run",
-    "Gradle.PrimerAjaxTest.executor": "Run",
-    "Gradle.PrimerAjaxTest.testWithAjax.executor": "Run",
-    "Gradle.PrimerAjaxTest.testWithoutAjax.executor": "Run",
-    "Gradle.QA_47_Demo [:experiments.Exception.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.CCsSelector.executor": "Debug",
-    "TestNG.CCsSelector.selectorsHomePage.executor": "Run",
-    "TestNG.XpathSelectors.selectorRadioButtonPage.executor": "Run",
-    "TestNG.XpathSelectors.selectorTextBox.executor": "Run",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/nataly/IdeaProjects/QA_47_Demo/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build QA_47_Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeFormTests.studentRegFormPositiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PrimerAjaxTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PrimerAjaxTest.testWithAjax.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PrimerAjaxTest.testWithoutAjax.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.QA_47_Demo [:experiments.Exception.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.CCsSelector.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.CCsSelector.selectorsHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.XpathSelectors.selectorRadioButtonPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.XpathSelectors.selectorTextBox.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/nataly/IdeaProjects/QA_47_Demo/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.PracticeFormTests.studentRegFormPositiveTest">
     <configuration name="PracticeFormTests.studentRegFormPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -235,14 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750363211098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Type Gender and DateOfBirth">
+      <option name="closed" value="true" />
+      <created>1750708781892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750708781892</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Exception" />
     <MESSAGE value="CssSelectors" />
     <MESSAGE value="Created project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created project" />
+    <MESSAGE value="Type Gender and DateOfBirth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Type Gender and DateOfBirth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
